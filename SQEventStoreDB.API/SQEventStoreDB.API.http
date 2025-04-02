@@ -1,0 +1,6 @@
+@SQEventStoreDB.API_HostAddress = http://localhost:5211
+
+GET {{SQEventStoreDB.API_HostAddress}}/bankaccount/
+Accept: application/json
+
+###
