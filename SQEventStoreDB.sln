@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStoreDB.API", "SQEve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStoreDB.Domain", "SQEventStoreDB.Domain\SQEventStoreDB.Domain.csproj", "{37B57E53-C1FA-4DF8-926B-16712D16FFF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStoreDB.Infrastructure", "SQEventStoreDB.Infrastructure\SQEventStoreDB.Infrastructure.csproj", "{5B6D4B0E-FE6A-DA9A-65F5-9496ACA125B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStoreDB.Application", "SQEventStoreDB.Application\SQEventStoreDB.Application.csproj", "{0B21D974-1CE7-402A-92AB-AF81106C8574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStoreDB.IoC", "SQEventStoreDB.IoC\SQEventStoreDB.IoC.csproj", "{6FA2717E-7E63-483F-8F5D-D8E6D033CB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQEventStore.Contracts", "SQEventStore.Contracts\SQEventStore.Contracts.csproj", "{F135BC25-D8F9-415B-8A64-E91F1235365A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{37B57E53-C1FA-4DF8-926B-16712D16FFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B57E53-C1FA-4DF8-926B-16712D16FFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37B57E53-C1FA-4DF8-926B-16712D16FFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6D4B0E-FE6A-DA9A-65F5-9496ACA125B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6D4B0E-FE6A-DA9A-65F5-9496ACA125B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6D4B0E-FE6A-DA9A-65F5-9496ACA125B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6D4B0E-FE6A-DA9A-65F5-9496ACA125B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B21D974-1CE7-402A-92AB-AF81106C8574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B21D974-1CE7-402A-92AB-AF81106C8574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B21D974-1CE7-402A-92AB-AF81106C8574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B21D974-1CE7-402A-92AB-AF81106C8574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA2717E-7E63-483F-8F5D-D8E6D033CB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA2717E-7E63-483F-8F5D-D8E6D033CB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA2717E-7E63-483F-8F5D-D8E6D033CB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA2717E-7E63-483F-8F5D-D8E6D033CB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F135BC25-D8F9-415B-8A64-E91F1235365A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F135BC25-D8F9-415B-8A64-E91F1235365A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F135BC25-D8F9-415B-8A64-E91F1235365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F135BC25-D8F9-415B-8A64-E91F1235365A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SQEventStore.Contracts\SQEventStore.Contracts.csproj" />
-  </ItemGroup>
-
 </Project>

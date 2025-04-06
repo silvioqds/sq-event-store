@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SQEventStoreDB.Infrastructure.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddEventStoreClient(builder.Configuration.GetSection("EventStore").Get<string>());
+builder.Services.AddExternalDependencies(builder.Configuration);
+
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;

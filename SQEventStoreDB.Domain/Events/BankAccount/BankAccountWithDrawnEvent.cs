@@ -2,7 +2,7 @@
 
 namespace SQEventStoreDB.Domain.Events.BankAccount
 {
-    public record BankAccountOpenedEvent(Guid AccountId, Guid OwnerId) : IEvent
+    public record BankAccountWithDrawnEvent(Guid AccountId, decimal Amount) : IEvent
     {
         public DateTime OccurredOn => DateTime.UtcNow;
     }

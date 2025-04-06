@@ -7,14 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EventStore.Client.Grpc.Streams" Version="23.3.8" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="System.Runtime" Version="4.3.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SQEventStoreDB.Domain\SQEventStoreDB.Domain.csproj" />
+    <ProjectReference Include="..\SQEventStoreDB.IoC\SQEventStoreDB.IoC.csproj" />
   </ItemGroup>
 
 </Project>

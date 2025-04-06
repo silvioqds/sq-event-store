@@ -6,8 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>   
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="UseCases\BankAccount\Queries\" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\SQEventStore.Contracts\SQEventStore.Contracts.csproj" />
+    <ProjectReference Include="..\SQEventStoreDB.Domain\SQEventStoreDB.Domain.csproj" />
   </ItemGroup>
 
 </Project>

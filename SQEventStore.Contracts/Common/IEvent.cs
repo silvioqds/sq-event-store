@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SQEventStoreDB.Domain.Entities
+namespace SQEventStore.Contracts.Common
 {
-    public interface IEntity
+    public interface IEvent
     {
-
+        DateTime OccurredOn { get; }
     }
 }
